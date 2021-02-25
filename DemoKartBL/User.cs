@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,28 +6,16 @@ using System.Threading.Tasks;
 
 namespace DemoKartBL
 {
-   public class User
+    public class User
     {
-
-       public String UserName { get; set; }
-        public String Password { get; set; }
         public String firstName { get; set; }
         public String lastName { get; set; }
-        public long phone { get; set; }
+        public DateTime Dob { get; set; }
+        public int mobileNo { get; set; }
 
-        public User()
+        public int Login(String UserName, String Password)
         {
-
-        }
-        public User(String UserName, String Password, long phone)
-        {
-            this.UserName = UserName;
-            this.Password = Password;
-            this.phone = phone;
-        }
-        public int LoginDetails(String uName, String psword)
-        {
-            if (uName == UserName && psword == Password)
+            if (UserName == "User" && Password == "pass")
             {
                 return 1;
             }
@@ -36,12 +24,6 @@ namespace DemoKartBL
                 return 0;
             }
         }
-
-
-
-
-
-
 
     }
 }
