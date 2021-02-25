@@ -16,7 +16,7 @@
 
 It provides a view of the system at an abstract level. It shows how the major pieces of the finished application will fit together and interact with each other.
 
-![](Aspose.Words.c32b7a3d-dbeb-443a-9664-1d91be090556.001.png)
+![UseCase Daigram](.vs/DemoKartMain/v16/UseCaseDaigram.PNG)
 
 **Low Level Design:**
 **
@@ -43,7 +43,8 @@ It provides a view of the system at an abstract level. It shows how the major pi
 - **Cart:** id, Price, Num\_of\_products
 - **Payment**: id,Paid, Total
 - **Category**: Type of product
--![ClassDaigram](.vs/DemoKartMain/v16/ClassDaigram.PNG)
+
+![ClassDaigram](.vs/DemoKartMain/v16/ClassDaigram.PNG)
 
 
 
