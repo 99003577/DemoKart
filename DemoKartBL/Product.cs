@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,35 +8,31 @@ namespace DemoKartBL
 {
     public class Product
     {
-        public int productid = 0;
-        public String productName = null;
-        public int quantity = 0;
-        public int price = 0;
+        public int productId { get; set; }
+        public String productName { get; set; }
+        public int quantity { get; set; }
+        public double price { get; set; }
+        
+
         public Category CategoryObj = new Category();
+       
+        
 
-
-
-
-        public Product(int productid, String productName, int price, int quantity, int categoryid, string Categories)
+        public Product()
         {
-            this.productid = productid;
+            productId = 0;
+            productName = null;
+            quantity = 0;
+            price = 0;
+        }
+        public Product(int productId, String productName, double price, int quantity,int CategoriesId,String Categories)
+        {
+            this.productId = productId;
             this.productName = productName;
             this.quantity = quantity;
             this.price = price;
-            CategoryObj.categoriesId = categoryid;
+            CategoryObj.categoriesId = CategoriesId;
             CategoryObj.categories = Categories;
-
         }
-
-        public static List<Product> Mainitems { get; set; } = new List<Product>();
-
-       
-
-
-
-
-
-
-
     }
 }
