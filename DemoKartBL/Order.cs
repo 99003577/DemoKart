@@ -6,9 +6,10 @@ using System.Threading.Tasks;
 
 namespace DemoKartBL
 {
-   public class Order
+   public class Order : User
     {
-
+        public String deliveryAddress;
+        public int pinCode;
 
 
     }

@@ -48,3 +48,13 @@ C:\Users\CTEA\Desktop\main\DemoKartfinal\DemoKart1\DemoKartMainProgram\bin\Debug
 C:\Users\CTEA\Desktop\main\DemoKartfinal\DemoKart1\DemoKartMainProgram\bin\Debug\DemoKartBL.dll
 C:\Users\CTEA\Desktop\main\DemoKartfinal\DemoKart1\DemoKartMainProgram\bin\Debug\DemoKartBL.pdb
 C:\Users\CTEA\Desktop\main\DemoKartfinal\DemoKart1\DemoKartMainProgram\obj\Debug\DemoKartMainProgram.csproj.CopyComplete
+C:\Users\priya\Documents\GitHub\DemoKart\DemoKartMainProgram\bin\Debug\DemoKartMainProgram.exe.config
+C:\Users\priya\Documents\GitHub\DemoKart\DemoKartMainProgram\bin\Debug\DemoKartMainProgram.exe
+C:\Users\priya\Documents\GitHub\DemoKart\DemoKartMainProgram\bin\Debug\DemoKartMainProgram.pdb
+C:\Users\priya\Documents\GitHub\DemoKart\DemoKartMainProgram\bin\Debug\DemoKartBL.dll
+C:\Users\priya\Documents\GitHub\DemoKart\DemoKartMainProgram\bin\Debug\DemoKartBL.pdb
+C:\Users\priya\Documents\GitHub\DemoKart\DemoKartMainProgram\obj\Debug\DemoKartMainProgram.csprojAssemblyReference.cache
+C:\Users\priya\Documents\GitHub\DemoKart\DemoKartMainProgram\obj\Debug\DemoKartMainProgram.csproj.CoreCompileInputs.cache
+C:\Users\priya\Documents\GitHub\DemoKart\DemoKartMainProgram\obj\Debug\DemoKartMainProgram.csproj.CopyComplete
+C:\Users\priya\Documents\GitHub\DemoKart\DemoKartMainProgram\obj\Debug\DemoKartMainProgram.exe
+C:\Users\priya\Documents\GitHub\DemoKart\DemoKartMainProgram\obj\Debug\DemoKartMainProgram.pdb
