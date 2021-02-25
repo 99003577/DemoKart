@@ -11,18 +11,27 @@ namespace DemoKartBL
         public int productid = 0;
         public String productName = null;
         public int quantity = 0;
+<<<<<<< HEAD
         public int price = 0;
         public Category CategoryObj = new Category();
+=======
+        public double price = 0;
+>>>>>>> 2c015fbf1b1666566e11617045066043d1096631
 
 
 
 
+<<<<<<< HEAD
         public Product(int productid, String productName, int price, int quantity, int categoryid, string Categories)
+=======
+        public Product(int productid, String productName, double price, int quantity)
+>>>>>>> 2c015fbf1b1666566e11617045066043d1096631
         {
             this.productid = productid;
             this.productName = productName;
             this.quantity = quantity;
             this.price = price;
+<<<<<<< HEAD
             CategoryObj.categoriesId = categoryid;
             CategoryObj.categories = Categories;
 
@@ -38,5 +47,8 @@ namespace DemoKartBL
 
 
 
+=======
+        }
+>>>>>>> 2c015fbf1b1666566e11617045066043d1096631
     }
 }

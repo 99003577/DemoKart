@@ -62,6 +62,7 @@ C:\Users\priya\Documents\GitHub\miniproject_personal\DemoKart2\DemoKart1\DemoKar
 C:\Users\priya\Documents\GitHub\miniproject_personal\DemoKart2\DemoKart1\DemoKartBLTests\obj\Debug\DemoKartBLTests.csproj.CopyComplete
 C:\Users\priya\Documents\GitHub\miniproject_personal\DemoKart2\DemoKart1\DemoKartBLTests\obj\Debug\DemoKartBLTests.dll
 C:\Users\priya\Documents\GitHub\miniproject_personal\DemoKart2\DemoKart1\DemoKartBLTests\obj\Debug\DemoKartBLTests.pdb
+<<<<<<< HEAD
 C:\Users\CTEA\Desktop\main\DemoKartfinal\DemoKart1\DemoKartBLTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
 C:\Users\CTEA\Desktop\main\DemoKartfinal\DemoKart1\DemoKartBLTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
 C:\Users\CTEA\Desktop\main\DemoKartfinal\DemoKart1\DemoKartBLTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
@@ -78,3 +79,5 @@ C:\Users\CTEA\Desktop\main\DemoKartfinal\DemoKart1\DemoKartBLTests\obj\Debug\Dem
 C:\Users\CTEA\Desktop\main\DemoKartfinal\DemoKart1\DemoKartBLTests\obj\Debug\DemoKartBLTests.csproj.CopyComplete
 C:\Users\CTEA\Desktop\main\DemoKartfinal\DemoKart1\DemoKartBLTests\obj\Debug\DemoKartBLTests.dll
 C:\Users\CTEA\Desktop\main\DemoKartfinal\DemoKart1\DemoKartBLTests\obj\Debug\DemoKartBLTests.pdb
+=======
+>>>>>>> 2c015fbf1b1666566e11617045066043d1096631

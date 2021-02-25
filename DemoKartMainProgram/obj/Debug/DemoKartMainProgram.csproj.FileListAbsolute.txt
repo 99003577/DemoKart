@@ -38,6 +38,7 @@ C:\Users\priya\Documents\GitHub\miniproject_personal\DemoKart2\DemoKart1\DemoKar
 C:\Users\priya\Documents\GitHub\miniproject_personal\DemoKart2\DemoKart1\DemoKartMainProgram\obj\Debug\DemoKartMainProgram.csproj.CopyComplete
 C:\Users\priya\Documents\GitHub\miniproject_personal\DemoKart2\DemoKart1\DemoKartMainProgram\obj\Debug\DemoKartMainProgram.exe
 C:\Users\priya\Documents\GitHub\miniproject_personal\DemoKart2\DemoKart1\DemoKartMainProgram\obj\Debug\DemoKartMainProgram.pdb
+<<<<<<< HEAD
 C:\Users\CTEA\Desktop\main\DemoKartfinal\DemoKart1\DemoKartMainProgram\obj\Debug\DemoKartMainProgram.csprojAssemblyReference.cache
 C:\Users\CTEA\Desktop\main\DemoKartfinal\DemoKart1\DemoKartMainProgram\obj\Debug\DemoKartMainProgram.csproj.CoreCompileInputs.cache
 C:\Users\CTEA\Desktop\main\DemoKartfinal\DemoKart1\DemoKartMainProgram\obj\Debug\DemoKartMainProgram.exe
@@ -48,3 +49,5 @@ C:\Users\CTEA\Desktop\main\DemoKartfinal\DemoKart1\DemoKartMainProgram\bin\Debug
 C:\Users\CTEA\Desktop\main\DemoKartfinal\DemoKart1\DemoKartMainProgram\bin\Debug\DemoKartBL.dll
 C:\Users\CTEA\Desktop\main\DemoKartfinal\DemoKart1\DemoKartMainProgram\bin\Debug\DemoKartBL.pdb
 C:\Users\CTEA\Desktop\main\DemoKartfinal\DemoKart1\DemoKartMainProgram\obj\Debug\DemoKartMainProgram.csproj.CopyComplete
+=======
+>>>>>>> 2c015fbf1b1666566e11617045066043d1096631

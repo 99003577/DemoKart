@@ -9,6 +9,7 @@ namespace DemoKartMainProgram
 {
     public class Program
     {
+<<<<<<< HEAD
         public static List<Product> Cart_list { get; set; } = new List<Product>();
 
 
@@ -24,24 +25,80 @@ namespace DemoKartMainProgram
                 {
                     
 
+=======
+        
+       
+        public void showitems(int id)
+        {
+            Category prod = new Category();
+            
+            //Electronics id
+            if (id == 1)
+            {
+                foreach(Product item in Category.Electronics)
+                {
                     Console.WriteLine("Product id: " + item.productid);
                     Console.WriteLine("Product name: " + item.productName);
                     Console.WriteLine("Product price: " + item.price);
                     Console.WriteLine("Product quantity: " + item.quantity);
+
+                }
+            }
+            //Clothing
+            else if(id == 2)
+            {
+                foreach (Product item in Category.Clothing)
+                {
+                    Console.WriteLine("Product id: " + item.productid);
+                    Console.WriteLine("Product name: " + item.productName);
+                    Console.WriteLine("Product price: " + item.price);
+                    Console.WriteLine("Product quantity: " + item.quantity);
+
+                }
+            }
+            //Grocery
+            else if (id == 3)
+            {
+                foreach (Product item in Category.Grocery)
+                {
+>>>>>>> 2c015fbf1b1666566e11617045066043d1096631
+                    Console.WriteLine("Product id: " + item.productid);
+                    Console.WriteLine("Product name: " + item.productName);
+                    Console.WriteLine("Product price: " + item.price);
+                    Console.WriteLine("Product quantity: " + item.quantity);
+<<<<<<< HEAD
                     Console.WriteLine("Category Id : " + item.CategoryObj.categoriesId);
                     Console.WriteLine("Category Name " + item.CategoryObj.categories + "\n");
 
+=======
+
+                }
+            }
+            //Cosmetics
+            else if (id == 4)
+            {
+                foreach (Product item in Category.Cosmetics)
+                {
+                    Console.WriteLine("Product id: " + item.productid);
+                    Console.WriteLine("Product name: " + item.productName);
+                    Console.WriteLine("Product price: " + item.price);
+                    Console.WriteLine("Product quantity: " + item.quantity);
+>>>>>>> 2c015fbf1b1666566e11617045066043d1096631
 
                 }
             }
         }
+<<<<<<< HEAD
      
 
 
+=======
+>>>>>>> 2c015fbf1b1666566e11617045066043d1096631
 
         static void Main(string[] args)
         {
             User credentials = new User();
+<<<<<<< HEAD
            
             Category product_Object = new Category();
             Program display = new Program();
@@ -55,18 +112,32 @@ namespace DemoKartMainProgram
 
 
 
+=======
+            Category prod = new Category();
+            Program display = new Program();
+            prod.addproducts();
+            
+                             
+>>>>>>> 2c015fbf1b1666566e11617045066043d1096631
            Console.WriteLine("Welcome to our store");
 
             Console.WriteLine("Please enter your username");
             string username = Console.ReadLine();
+<<<<<<< HEAD
             Console.WriteLine("Please enter your Password");
             string password = Console.ReadLine();
 
 
+=======
+            Console.WriteLine("Please enter your username");
+            string password = Console.ReadLine();
+
+>>>>>>> 2c015fbf1b1666566e11617045066043d1096631
            
                     
             if ( credentials.logindetails(username, password) == 1)
             {
+<<<<<<< HEAD
                 int category_choice = 0;
                 int choice;
                 int n;
@@ -155,16 +226,47 @@ namespace DemoKartMainProgram
             Console.WriteLine("Order successfully placed!\n");
 
             Console.WriteLine("Order id : " + orderid + "\n"+  "Order name : " + name + "\n" + "Order Address : " + address + "\n" + "Phone number : " + phone + "\n");
+=======
+                int choice;
+                do
+                {
+                    Console.WriteLine("These are the categories we deal with");
+
+                    Console.WriteLine("1.Electronics \n2.Clothing \n3.Grocery \n4.Cosmetics");
+                    int category_choice = Convert.ToInt32(Console.ReadLine());
+
+                    display.showitems(category_choice);
+                    Console.WriteLine("Do you want to continue 1.continye 2.exit");
+                    choice = Convert.ToInt32(Console.ReadLine());
+
+                } while (choice == 1);
+
+
+
+>>>>>>> 2c015fbf1b1666566e11617045066043d1096631
 
 
 
 
+<<<<<<< HEAD
             Console.WriteLine("Thank You for shopping with us");
 
 
 
             Console.ReadKey();
          
+=======
+
+            }
+
+            else
+            {
+                Console.WriteLine("Sorry wrong credentials");
+            }
+
+            
+           
+>>>>>>> 2c015fbf1b1666566e11617045066043d1096631
 
         }
     }

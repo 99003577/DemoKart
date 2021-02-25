@@ -22,9 +22,12 @@ C:\Users\priya\Documents\GitHub\miniproject_personal\DemoKart2\DemoKart1\DemoKar
 C:\Users\priya\Documents\GitHub\miniproject_personal\DemoKart2\DemoKart1\DemoKartBL\obj\Debug\DemoKartBL.csproj.CoreCompileInputs.cache
 C:\Users\priya\Documents\GitHub\miniproject_personal\DemoKart2\DemoKart1\DemoKartBL\obj\Debug\DemoKartBL.dll
 C:\Users\priya\Documents\GitHub\miniproject_personal\DemoKart2\DemoKart1\DemoKartBL\obj\Debug\DemoKartBL.pdb
+<<<<<<< HEAD
 C:\Users\CTEA\Desktop\main\DemoKartfinal\DemoKart1\DemoKartBL\obj\Debug\DemoKartBL.csprojAssemblyReference.cache
 C:\Users\CTEA\Desktop\main\DemoKartfinal\DemoKart1\DemoKartBL\obj\Debug\DemoKartBL.csproj.CoreCompileInputs.cache
 C:\Users\CTEA\Desktop\main\DemoKartfinal\DemoKart1\DemoKartBL\obj\Debug\DemoKartBL.dll
 C:\Users\CTEA\Desktop\main\DemoKartfinal\DemoKart1\DemoKartBL\obj\Debug\DemoKartBL.pdb
 C:\Users\CTEA\Desktop\main\DemoKartfinal\DemoKart1\DemoKartBL\bin\Debug\DemoKartBL.dll
 C:\Users\CTEA\Desktop\main\DemoKartfinal\DemoKart1\DemoKartBL\bin\Debug\DemoKartBL.pdb
+=======
+>>>>>>> 2c015fbf1b1666566e11617045066043d1096631

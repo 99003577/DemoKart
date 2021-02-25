@@ -8,14 +8,28 @@ namespace DemoKartBL
 {
    public class Payment
     {
+<<<<<<< HEAD
         public double Payment_method(double finalprice)
         {
             double totalprice = finalprice;
             //for card
+=======
+        public double Payment_method(int payment_choice,double finalprice)
+        {
+            double totalprice = finalprice;
+            //for cash
+            if(payment_choice == 1)
+            {
+                return totalprice;
+            }
+            else 
+            {
+>>>>>>> 2c015fbf1b1666566e11617045066043d1096631
                 double tax = finalprice * 0.33;
                 totalprice = finalprice + tax;
                 return totalprice;
                 
+<<<<<<< HEAD
             
             
         }
@@ -57,6 +71,13 @@ namespace DemoKartBL
         }
 
          
+=======
+            }
+            
+        }
+
+
+>>>>>>> 2c015fbf1b1666566e11617045066043d1096631
 
     }
 }

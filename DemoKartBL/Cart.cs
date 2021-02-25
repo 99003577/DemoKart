@@ -13,6 +13,7 @@ namespace DemoKartBL
         public int AddtoCart(int quantity)
         {
 
+<<<<<<< HEAD
             if (quantity > 20)
             {
                 return 1;
@@ -22,6 +23,8 @@ namespace DemoKartBL
                 return 0;
             }
 
+=======
+>>>>>>> 2c015fbf1b1666566e11617045066043d1096631
 
         }
     }
