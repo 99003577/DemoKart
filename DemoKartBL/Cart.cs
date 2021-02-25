@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,12 +8,12 @@ namespace DemoKartBL
 {
     public class Cart
     {
-        
+        public int cartId;
 
-        public int AddtoCart(int quantity)
+
+        public int AddToCart(int Quantity)
         {
-
-            if (quantity > 20)
+            if (Quantity > 10)
             {
                 return 1;
             }
@@ -21,7 +21,6 @@ namespace DemoKartBL
             {
                 return 0;
             }
-
 
         }
     }
