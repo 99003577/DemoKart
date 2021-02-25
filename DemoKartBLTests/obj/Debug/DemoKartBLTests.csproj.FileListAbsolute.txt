@@ -78,7 +78,3 @@ C:\Users\CTEA\Desktop\main\DemoKartfinal\DemoKart1\DemoKartBLTests\obj\Debug\Dem
 C:\Users\CTEA\Desktop\main\DemoKartfinal\DemoKart1\DemoKartBLTests\obj\Debug\DemoKartBLTests.csproj.CopyComplete
 C:\Users\CTEA\Desktop\main\DemoKartfinal\DemoKart1\DemoKartBLTests\obj\Debug\DemoKartBLTests.dll
 C:\Users\CTEA\Desktop\main\DemoKartfinal\DemoKart1\DemoKartBLTests\obj\Debug\DemoKartBLTests.pdb
-C:\Users\CTEA\Documents\GitHub\desktop-tutorial\DemoKart\DemoKartBLTests\obj\Debug\DemoKartBLTests.dll
-C:\Users\CTEA\Documents\GitHub\desktop-tutorial\DemoKart\DemoKartBLTests\obj\Debug\DemoKartBLTests.pdb
-C:\Users\CTEA\Documents\GitHub\desktop-tutorial\DemoKart\DemoKartBLTests\obj\Debug\DemoKartBLTests.csprojAssemblyReference.cache
-C:\Users\CTEA\Documents\GitHub\desktop-tutorial\DemoKart\DemoKartBLTests\obj\Debug\DemoKartBLTests.csproj.CoreCompileInputs.cache
