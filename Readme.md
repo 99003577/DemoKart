@@ -37,13 +37,13 @@ It provides a view of the system at an abstract level. It shows how the major pi
 
 **Attributes:**
 
-- **Product**: Product\_id, Product\_type
+- **Product**: Product_id, Product2_type
 - **User**: User\_id, User\_Name, Password, Mobile, Email, Address
 - **Order**: Order\_id, Order\_Type, Customer\_id, Customer\_Name
 - **Cart:** id, Price, Num\_of\_products
 - **Payment**: id,Paid, Total
 - **Category**: Type of product
-- ![C:\Users\Training\AppData\Local\Microsoft\Windows\INetCache\Content.Word\class\_diagram.png](Aspose.Words.c32b7a3d-dbeb-443a-9664-1d91be090556.002.png)
+-![ClassDaigram](.vs/DemoKartMain/v16/ClassDaigram.PNG)
 
 
 
