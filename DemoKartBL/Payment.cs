@@ -12,7 +12,7 @@ namespace DemoKartBL
         {
             double totalprice = finalprice;
             //for card
-                double tax = finalprice * 0.33;
+                double tax = finalprice * 0.03;
                 totalprice = finalprice + tax;
                 return totalprice;
                 
