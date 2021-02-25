@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,63 +6,60 @@ using System.Threading.Tasks;
 
 namespace DemoKartBL
 {
-   public class Category
+    public class Category
     {
+        //enum Categories {electronics=1, grocery, clothing, cosmetic }
+
+        //public String categories;
+        //public int categoriesId;
+
         public int categoriesId { get; set; }
         public String categories { get; set; }
 
-        public static List<Product> Mainitems { get; set; } = new List<Product>();
-        public static List<Product> Clothing { get; set; } = new List<Product>();
-        public static List<Product> Grocery { get; set; } = new List<Product>();
-        public static List<Product> Cosmetics { get; set; } = new List<Product>();
-
-
-
-
-        public void addproducts()
+        public double totalPrice = 0;
+        public Category()
         {
-           
-            Product[] Productobj = new Product[20];
-            //for electronics
-            for (int i = 0; i < 20; i++)
-            { 
-                
-            Productobj[0] = new Product(1, "Mobile", 10000, 10,1,"Electronics");
-            Productobj[1] = new Product(2, "Laptop", 30000, 15, 1, "Electronics");
-            Productobj[2] = new Product(3, "Telivision", 20000, 20,1, "Electronics");
-            Productobj[3] = new Product(4, "Charger", 200, 10, 1, "Electronics");
-            Productobj[4] = new Product(5, "Headset", 1000, 10, 1, "Electronics");
-            Productobj[5] = new Product(6, "Kids", 500, 100 ,2,"Clothing");
-            Productobj[6] = new Product(7, "Gents", 1000, 120, 2, "Clothing");
-            Productobj[7] = new Product(8, "Ladies", 1000, 150, 2, "Clothing");
-            Productobj[8] = new Product(9, "Western", 2000, 100, 2, "Clothing");
-            Productobj[9] = new Product(10, "Tradition", 2000, 100, 2, "Clothing");
-            Productobj[10] = new Product(11, "Rice", 1000, 100,3, "Grocery");
-            Productobj[11] = new Product(12, "Bread", 1000, 50,3, "Grocery");
-            Productobj[12] = new Product(13, "Sugar", 1000, 100, 3, "Grocery");
-            Productobj[13] = new Product(14, "Salt", 1000, 50, 3, "Grocery");
-            Productobj[14] = new Product(15, "Milk", 1000, 20, 3, "Grocery");
-            Productobj[15] = new Product(16, "Perfume", 500, 10, 4, "Cosmetics");
-            Productobj[16] = new Product(17, "Lotion", 200, 15, 4, "Cosmetics");
-            Productobj[17] = new Product(18, "Powder", 500, 20, 4, "Cosmetics");
-            Productobj[18] = new Product(19, "Shampoo", 500, 30, 4, "Cosmetics");
-            Productobj[19] = new Product(20, "Lipstick", 500, 20, 4, "Cosmetics");
-
-
-
-                Mainitems.Add(Productobj[i]);
-
-            }
-
-            
-
-
-
-
+            categories = null;
         }
-       
-       
+        public Category(int categoriesId, String categories)
+        {
+            this.categories = categories;
+            this.categoriesId = categoriesId;
+        }
 
+
+        public double CalculatePrice(int type, double price,int Quantity)
+        {
+            if (type == 1)
+            {
+                price = price * Quantity;
+                totalPrice = price + (price * 0.18);
+                return totalPrice;
+            }
+            else if (type == 2)
+            {
+                price = price * Quantity;
+                totalPrice = price + ( price * 0.04);
+                return totalPrice;
+            }
+            else if (type == 3)
+            {
+                price = price * Quantity;
+                totalPrice = price + (price * 0.07);
+                return totalPrice;
+            }
+            else if (type == 4)
+            {
+                price = price * Quantity;
+                totalPrice = price + (price * 0.18);
+                return totalPrice;
+            }
+            else
+            {
+                return 0;
+            }
+        }
 
     }
 }
+
